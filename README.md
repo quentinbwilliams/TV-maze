@@ -1,11 +1,8 @@
-# TV-maze
-
-API Practice: TV Maze
-
-Download starter code
+# API Practice: TV Maze
 
 In this exercise, you’ll finish a partially-complete web app which is a front-end for the TVMaze API.
-Step 1: Understand The API
+
+# Step 1: Understand The API
 
 Explore the TVMaze API. You will need to make a get request to two endpoints:
 
@@ -16,7 +13,8 @@ and
 http://api.tvmaze.com/shows/<show id>/episodes
 
 Use a tool like curl or insomnia to make a HTTP request to both endpoints and get comfortable with the JSON that is returned. You will need to parse the JSON in order to get the data for the application.
-Step 2: Understand Current Code
+
+# Step 2: Understand Current Code
 
 We’ve provided two files for you:
 
@@ -48,10 +46,12 @@ Data attributes are very useful for when you want to associate some data (in thi
 Note in populateShows how we add data-show-id onto the outermost .Show div. Later, when we want to retrieve which show ID was clicked on, we’ll be able to get that show ID.
 
 You may find it helpful to skim the MDN article linked above.
-Step 3: Make AJAX request for Search
+
+# Step 3: Make AJAX request for Search
 
 Remove the hard coded array from the searchShows function and make replace the code with an AJAX request to the search shows api from TVMaze. Make sure that the array of information you return from the function is formatted as described in the comments for the searchShows function.
-Step 4: Add Show Images
+
+# Step 4: Add Show Images
 
 The TVMaze API includes images for many shows, but we don’t currently use these.
 
@@ -64,7 +64,8 @@ Update populateShows to show the image. You can do this with the following snipp
 Be careful how you implement this. Not all shows have images, and if you’re not careful, this will break for shows without images. Make sure that you write this in a way where shows without missing images won’t break your site.
 
 For shows without an image, you can have it show this generic image instead: https://tinyurl.com/tv-missing
-Step 5: Add Episode Lists
+
+# Step 5: Add Episode Lists
 
 We want to add a feature where clicking an “Episodes” button at the bottom of a show card shows the episodes for this show at the bottom of the page.
 
