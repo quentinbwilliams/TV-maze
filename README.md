@@ -6,11 +6,11 @@ In this exercise, you’ll finish a partially-complete web app which is a front-
 
 Explore the TVMaze API. You will need to make a get request to two endpoints:
 
-http://api.tvmaze.com/search/shows?q=<search query>
+http://api.tvmaze.com/search/shows?q=
 
 and
 
-http://api.tvmaze.com/shows/<show id>/episodes
+http://api.tvmaze.com/shows/episodes
 
 Use a tool like curl or insomnia to make a HTTP request to both endpoints and get comfortable with the JSON that is returned. You will need to parse the JSON in order to get the data for the application.
 
